@@ -10,7 +10,7 @@ body {
 }
 
 .content {
-	padding: 40px 16px 0 16px;
+	padding: 16px;
 	flex: 1 0 auto;
 }
 
@@ -44,7 +44,7 @@ section.body {
 }
 
 img.hero-image {
-	width: 40%;
+	width: 25%;
 	margin-bottom: 20px;
 }
 
