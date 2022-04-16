@@ -1,7 +1,7 @@
 html, body {
 	height: 100%;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	font-family: Montserrat /* -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; */
 }
 
 body {
@@ -12,19 +12,21 @@ body {
 .content {
 	padding: 16px;
 	flex: 1 0 auto;
+	text-align: center;
 }
 
 /* Headline */
 h1 {
 	font-size: 5rem;
 	margin: 0;
+	font-weight: inherit;
 }
 
 /* Subhead */
 h2 {
-	margin: 0;
-	font-weight: 100;
+	margin: 0 0 60px 0;
 	font-size: 3rem;
+	font-weight: inherit;
 }
 
 section {
@@ -35,17 +37,14 @@ section {
 
 section.header {
 	margin-bottom: 40px;
+	font-weight: 900;
 }
 
-section.body {
-	max-width: 50%;
-	margin: 0 auto;
-	font-size: 1.5rem;
-}
 
 img.hero-image {
 	width: 25%;
-	margin-bottom: 20px;
+	min-width: 400px;
+	margin: 20px auto;
 }
 
 .emoji {
@@ -59,6 +58,13 @@ img.hero-image {
 	font-size: 8rem;
 	top: -29px;
 	left: -23px;
+}
+
+section.body {
+	max-width: 65%;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	line-height: 1.5;
 }
 
 /* Text Emphasis */
@@ -101,5 +107,33 @@ path {
 	body {
 		background-color: #22272F;
 		color: #FFFF;
+	}
+}
+
+@media only screen and (max-device-width: 420px) {
+	h1 {
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+
+
+	img.hero-image {
+		min-width: 300px;
+	}
+
+	.emoji {
+		width: 60%;
+	}
+
+	.prohibited-sign {
+		font-size: 6rem;
+	}
+
+	section.body {
+		max-width: 100%;
+		font-size: 1.2rem;
+    line-height: 1.8;
 	}
 }
