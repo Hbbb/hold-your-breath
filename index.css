@@ -1,7 +1,14 @@
+/* @font-face {
+	font-family: Monsterrat;
+	src: url('/assets/fonts/Montserrat/static/Montserrat-VariableFont_wght.ttf') format('truetype');
+	font-style: normal;
+} */
+
 html, body {
 	height: 100%;
 	margin: 0;
-	font-family: Montserrat /* -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; */
+	font-family: Montserrat; /* -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; */
+	font-weight: 900;
 }
 
 body {
